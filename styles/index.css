@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family= Krona+One & family= Montserrat & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+i :root{
+    ---color-primaria:#4a0000;
+    ---color-segundaria:#F0F8FF;
+    ---color-terciaria:#2F4F4F;
+}
+
+
+body{
+/*height: 100vh;*/
+ box-sizing: border-box;
+ background-color:#4a0000;
+ color:var(---color-segundaria);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+   
+}
+
+.cabecalho-menu-principal{
+    display: flex;
+    gap:80px;
+   
+}
+
+.cabecalho-menu{
+    color: var(---color-segundaria);
+    font-size: 1.5rem ;
+    font-family:  'Montserrat',sans-serif;
+    font-weight: 600px;
+    text-decoration: none;
+
+}
+
+
+.titulo-destaque{
+    color:#80a1c1;
+}
+
+.conteudo{
+    margin: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:84px;
+}
+
+.conteudo-principal{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.conteudo-titulo{
+    font-size: 2.5rem;
+    font-family: 'Krona One', sans-serif;
+    
+
+}
+
+.conteudo-principal-paragrafo{
+    font-size: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.conteudo-links{
+ display: flex;
+ flex-direction: column;
+justify-content:space-between;
+align-items: center;
+gap: 32px;
+
+}
+
+.conteudo-subtitulo{
+    font-family:'Krona One', sans-serif;
+    font-weight: 400px; 
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+
+.conteudo-links-redes{
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(---color-segundaria);
+    border: 1px solid #22D4FD;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    padding: 21.5px 0;
+}
+
+.conteudo-links-redes:hover{
+background-color:var(---color-segundaria) ;
+}
+
+.img{
+    width: 50%;
+}
+
+.rodape{
+    background-color: #2F4F4F;
+    color: var(---color-segundaria);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+    padding: 24px;
+    font-weight: 400;
+
+}
+
+@media(max-width:1200px) {
+   
+
+
+   .cabecalho{
+    padding: 10%;
+   }
+
+   .cabecalho-menu-principal{
+    justify-content: center;
+   }
+   
+   
+    .conteudo{
+    flex-direction: column-reverse;
+    padding: 5%;
+   }
+
+   .conteudo-principal{
+    width: auto;
+   }
+   
+    
+
+
+
+
+}
+
+
+ 
+
+   
